@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  background: white;
+}
+
+.search-bar button img {
+  width: 20px;
+  height: 20px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.main-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.temp {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.detail-item img {
+  width: 20px;
+  height: 20px;
+}
